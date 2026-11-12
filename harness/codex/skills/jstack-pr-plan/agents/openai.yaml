@@ -1,0 +1,4 @@
+interface:
+  display_name: "jstack pr-plan"
+  short_description: "Split an implementation plan into docs/jstack/<slug>/pr-plan.md, a stack of PRs each under 500 changed lines with tests,"
+  default_prompt: "Use $jstack-pr-plan [plan path | --slug <slug>] [--budget 500]"

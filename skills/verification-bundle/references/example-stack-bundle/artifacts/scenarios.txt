@@ -1,0 +1,8 @@
+S-1 component CT-1 pass S-1: fresh key places the order
+S-1 blackbox BB-1 pass S-1: fresh key places the order
+S-2 component CT-2 pass S-2: seen key with the same payload replays
+S-2 blackbox BB-1 pass S-2: seen key with the same payload replays
+S-3 component CT-2 pass S-3: seen key with a different payload conflicts
+S-3 blackbox BB-1 pass S-3: seen key with a different payload conflicts
+S-4 component CT-1 pass S-4: expired key behaves as fresh
+S-4 blackbox BB-1 pass S-4: expired key behaves as fresh

@@ -1,0 +1,6 @@
+passed=14 failed=0 skipped=0
+scripts/lib/order-service.test.mjs passed=4 failed=0 skipped=0
+scripts/lib/idempotency-store.test.mjs passed=5 failed=0 skipped=0
+scripts/lib/orders-http.component.test.mjs passed=4 failed=0 skipped=0
+scripts/lib/markdown.test.mjs passed=1 failed=0 skipped=0
+failing tests: none

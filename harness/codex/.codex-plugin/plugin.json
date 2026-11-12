@@ -1,0 +1,36 @@
+{
+  "name": "jstack",
+  "version": "0.1.0",
+  "description": "Requirement and design in, reviewable implementation plan, sub-500-line PR plan, and verified PRs out. Agent teams with evidence.",
+  "author": {
+    "name": "Jacob Nguyen"
+  },
+  "homepage": "https://github.com/manhnc-dev/jstack",
+  "repository": "https://github.com/manhnc-dev/jstack",
+  "license": "MIT",
+  "keywords": [
+    "jstack",
+    "planning",
+    "pr-stack",
+    "verification",
+    "sequence-diagrams",
+    "agent-teams"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "jstack",
+    "shortDescription": "Plan, split, implement, verify with agent teams",
+    "longDescription": "Requirement and design in, reviewable implementation plan, sub-500-line PR plan, and verified PRs out. Agent teams with evidence.",
+    "developerName": "Jacob Nguyen",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/manhnc-dev/jstack",
+    "defaultPrompt": [
+      "Use $jstack-plan to turn a requirement into a reviewable implementation plan with sequence diagrams."
+    ]
+  }
+}

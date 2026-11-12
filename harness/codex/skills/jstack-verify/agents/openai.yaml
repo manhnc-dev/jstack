@@ -1,0 +1,4 @@
+interface:
+  display_name: "jstack verify"
+  short_description: "Independently verify one implemented PR with three fresh workers."
+  default_prompt: "Use $jstack-verify <PR-n | slug/PR-n> [--slug <slug>] [--open-pr]"

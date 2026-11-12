@@ -1,0 +1,4 @@
+interface:
+  display_name: "jstack verify-stack"
+  short_description: "Verify the whole feature end to end at the top of a jstack stack."
+  default_prompt: "Use $jstack-verify-stack [--slug <slug>]"

@@ -1,0 +1,14 @@
+{
+  "name": "jstack",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Agent plugin for Claude Code, Cursor, and Codex: implementation plans, PR plans, verification bundles.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test \"scripts/**/*.test.mjs\" \"skills/**/*.test.mjs\" && node scripts/build-harness.mjs --check",
+    "build:harness": "node scripts/build-harness.mjs",
+    "validate": "claude plugin validate --strict ."
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "jstack plan"
+  short_description: "Turn a requirement (and optional design) into docs/jstack/<slug>/implementation-plan.md with class and method level sequ"
+  default_prompt: "Use $jstack-plan <requirement text or path> [--design <path>] [--slug <slug>]"

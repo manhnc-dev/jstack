@@ -1,0 +1,4 @@
+interface:
+  display_name: "jstack implement"
+  short_description: "Implement one PR from the pr-plan on its own stacked branch with a fresh implementer agent, test first, small commits."
+  default_prompt: "Use $jstack-implement <PR-n | slug/PR-n> [--slug <slug>] [--fix \"<finding>\"] [--no-verify]"

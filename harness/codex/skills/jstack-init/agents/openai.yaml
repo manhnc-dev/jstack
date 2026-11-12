@@ -1,0 +1,4 @@
+interface:
+  display_name: "jstack init"
+  short_description: "Interview this repo and write docs/jstack/repo-profile.md (build, test, lint, live, conventions, baseline)."
+  default_prompt: "Use $jstack-init [--no-baseline]"

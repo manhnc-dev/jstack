@@ -1,0 +1,4 @@
+interface:
+  display_name: "jstack help"
+  short_description: "Which jstack command fits what you are trying to do, and where the artifacts land."
+  default_prompt: "Use $jstack-help [question]"

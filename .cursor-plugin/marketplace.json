@@ -1,0 +1,15 @@
+{
+  "name": "jstack",
+  "owner": { "name": "Jacob Nguyen" },
+  "metadata": {
+    "description": "jstack: plan, split, implement, verify with agent teams.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "jstack",
+      "source": "./harness/cursor",
+      "description": "Requirement and design in, reviewable implementation plan, sub-500-line PR plan, and verified PRs out."
+    }
+  ]
+}

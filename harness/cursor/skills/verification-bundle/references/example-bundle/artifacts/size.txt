@@ -1,0 +1,6 @@
+$ skills/pr-plan/scripts/pr-size.sh 4f2795b4853bce79e6ea10a35b394f594dcf3174 3d76cfd3cd23540a3c277d0597e2afe23972fd39 --budget 500
+added=186 deleted=1 total=187 budget=500 status=OK
+127	0	scripts/lib/markdown.mjs
+57	0	scripts/lib/markdown.test.mjs
+2	1	package.json
+exit code: 0

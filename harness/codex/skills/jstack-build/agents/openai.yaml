@@ -1,0 +1,4 @@
+interface:
+  display_name: "jstack build"
+  short_description: "Run the whole stack from the pr-plan, implement then verify each PR in dependency order, stop at the first FAIL."
+  default_prompt: "Use $jstack-build [--slug <slug>] [--only PR-n,PR-m] [--no-gate] [--open-pr]"
